@@ -7,7 +7,7 @@ public:
     std::string getName();
     std::string getEmail();
     std::string getPassword();
-    int getId();
+    int getID();
     void setName(std::string name);
     void setEmail(std::string email);
     void setPassword(std::string password);
