@@ -1,4 +1,4 @@
-#include "../include/User.h"
+#include "../include/user.h"
 #include <iostream>
 
 static int idCounter = 1;
