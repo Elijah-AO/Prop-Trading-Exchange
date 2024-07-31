@@ -1,4 +1,5 @@
 #include "../include/user.h"
+#include "../include/stock.h"
 #include <iostream>
 
 static int idCounter = 1;
