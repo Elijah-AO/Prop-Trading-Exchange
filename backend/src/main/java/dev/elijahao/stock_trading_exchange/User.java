@@ -8,7 +8,6 @@ public class User {
     private String username;
     private String password;
     private String email;
-    private String role;
 
     public User() {
     }
@@ -33,10 +32,6 @@ public class User {
 
     public String getEmail() {
         return email;
-    }
-
-    public String getRole() {
-        return role;
     }
 
     public void setId(String id) {
