@@ -131,3 +131,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+backend/g++
+backend/bin/main.exe
+backend/build/Debug/main.o
