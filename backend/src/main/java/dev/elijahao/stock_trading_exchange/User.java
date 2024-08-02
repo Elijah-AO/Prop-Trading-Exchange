@@ -1,30 +1,24 @@
 package dev.elijahao.stock_trading_exchange;
 
+import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Document(collection = "users")
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 
 public class User {
     @Id
-    private int id;
-
-    private static int idCounter = 0;
+    private ObjectId id;
     private String username;
     private String password;
     private String email;
-
-    public User(String username, String password, String email) {
-        this.username = username;
-        this.password = password;
-        this.email = email;
-        this.id = idCounter++;
-    }
 
     public void printUser() {
         System.out.println("Username: " + this.username);
