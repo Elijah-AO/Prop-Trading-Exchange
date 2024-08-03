@@ -1,6 +1,6 @@
 package dev.elijahao.stock_trading_exchange;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 import java.util.List;
 
 import org.bson.types.ObjectId;
@@ -24,6 +24,7 @@ public class Account {
 
     @DocumentReference
     private int userid;
+    
     @DocumentReference
     private List<Stock> stocks;
 
